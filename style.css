@@ -1,54 +1,130 @@
 body {
-    background: #eeefed;
+  background: #eeefed;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 25px;
 }
 
 h1 {
-    position: relative;
-    text-align: center;
-    color: #353535;
-    font-size: 50px;
-    font-family: "Calibri", sans-serif;
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Calibri", sans-serif;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 18px;
-    color: #676767;
-    margin-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+  margin-bottom: 40px;
 }
 
 .custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #000;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: block;
-    margin: 0 auto 20px; /* Center and add margin to stack vertically */
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
-    outline: none;
+  width: 130px;
+  height: 40px;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  margin: 0 auto 20px; /* Center and add margin to stack vertically */
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+/* Add your custom styles for btn-1, btn-2, and btn-3 */
+.custom-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* Button 1 */
+
+.btn-1 {
+  background-color: #4dccc6;
+  background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: all 0.1s ease-in 0s;
+}
+
+.btn-1:hover {
+  background-color: #4dccc6;
+  background-image: linear-gradient(315deg, #96e4df 0%, #4dccc6 74%);
+}
+
+.btn-1:active {
+  top: 2px;
+}
+
+/* Button 2 */
+
+.btn-2 {
+  background-color: #be6abc;
+  background-image: linear-gradient(315deg, #902968 0%, #ab6ea8 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: all 0.1s ease-in 0s;
+}
+
+.btn-2:hover {
+  background: transparent;
+  box-shadow: none;
+  background-color: #dbabd9;
+  border: #902968 solid 1px;
+  border-radius: 0;
+}
+
+.btn-2:active {
+  top: 2px;
+}
+
+/* Button 2 */
+
+.btn-3 {
+  background-color: #28cbb0;
+  background-image: linear-gradient(315deg, #e95757 0%, #cfae2b 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: all 0.1s ease-in 0s;
+}
+
+.btn-3:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-3:active {
+  top: 2px;
+}
