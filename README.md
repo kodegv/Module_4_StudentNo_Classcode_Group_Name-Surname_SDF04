@@ -15,4 +15,4 @@ I accomplished this by using CSS to add simple transitions and transformations t
 
 Honestly, I struggled with everything. I used some provided buttons for inspiration to achieve the look of my own. Alongside some research, I was able to manipulate the buttons to my liking.
 
-✨Inspo: [text](https://codepen.io/codespace-academy/pen/xxmWrjX)
+✨Inspo: [CodePen Sample](https://codepen.io/codespace-academy/pen/xxmWrjX)
